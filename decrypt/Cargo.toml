@@ -1,0 +1,13 @@
+[package]
+name = "decrypt"
+version = "0.1.0"
+edition = "2018"
+publish = false
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+azure_key_vault = { git = "https://github.com/azure/azure-sdk-for-rust" }
+azure_identity = { git = "https://github.com/azure/azure-sdk-for-rust" }
+tokio = "1.10.0"
