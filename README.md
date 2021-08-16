@@ -28,10 +28,10 @@ $ cargo build
 The following environment flags are expected to be set for both `encrypt` and `decrypt`:
 
 - `AZURE_CLIENT_ID`: Azure ActiveDirectory application registration client ID
+- `AZURE_CLIENT_SECRET`: Azure ActiveDirectory application registration client secret
 - `AZURE_TENANT_ID`: Azure ActiveDirectory application registration tenant ID
 - `AZURE_KEY_VAULT_URI`: The URI of the Azure Key Vault
-- `AZURE_CLIENT_SECRET`: The generate Azure Key Vault secret used to decrypt the messages
-
+- `AZURE_KEY_NAME`: The name of the Azure Key Vault key
 
 ### `encrypt`
 
