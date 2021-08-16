@@ -11,7 +11,7 @@ The encryption program is written in C++ and is in the `encrypt` folder. The dec
 Install [vcpkg](https://vcpkg.io/), then:
 
 ```
-$ vcpkg install azure-identity-cpp:x64-windows-static azure-security-keyvault-keys-cpp:x64-windows-static
+$ vcpkg install --triplet=x64-windows-static --feature-flags=manifests
 ```
 
 Then build with CMake using your prefered method.
