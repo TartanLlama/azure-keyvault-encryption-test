@@ -1,0 +1,9 @@
+{
+  "name": "encrypt",
+  "version-string": "1.0.0",
+  "port-version": 0,
+  "dependencies": [
+    "azure-identity-cpp",
+    "azure-security-keyvault-keys-cpp"
+  ]
+}
