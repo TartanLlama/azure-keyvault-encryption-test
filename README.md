@@ -22,3 +22,25 @@ Then build with CMake using your prefered method.
 ```
 $ cargo build
 ```
+
+## Running
+
+The following environment flags are expected to be set for both `encrypt` and `decrypt`:
+
+- `AZURE_CLIENT_ID`: Azure ActiveDirectory application registration client ID
+- `AZURE_TENANT_ID`: Azure ActiveDirectory application registration tenant ID
+- `AZURE_KEY_VAULT_URI`: The URI of the Azure Key Vault
+- `AZURE_CLIENT_SECRET`: The generate Azure Key Vault secret used to decrypt the messages
+
+
+### `encrypt`
+
+```
+$ ./azure_encrypt
+```
+
+### `decrypt`
+
+```
+$ cargo run
+```
